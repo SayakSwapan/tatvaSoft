@@ -50,7 +50,7 @@ while ($row = mysqli_fetch_array($result, MYSQLI_NUM)) {
                                 <?php echo $event['2'] ?> To <?php echo $event['3'] ?>
                             </td>
                             <td>
-                                <?php echo $event['3'] ?>
+                                <?php echo $event['4'] ?>
                             </td>
                             <td>
                                 <button ><a href="./event_view.php?id=<?php echo $event['0']  ?>">View</button>
